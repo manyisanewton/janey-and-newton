@@ -34,7 +34,7 @@ export default function PhotoGallery() {
   return (
     <div className="carousel-container">
       <div className="marquee-container">
-        <marquee className="animated-marquee">
+        <marquee className="animated-marquee"style={{textAlign:"center",fontFamily: "'Playwrite AU NSW', sans-serif"}}>
           💖 To my dearest Jane, this gallery is a tribute to our love, capturing our cherished moments. Each photo is a memory, a story, and a testament to our journey. I love you ❤️✨
         </marquee>
       </div>
