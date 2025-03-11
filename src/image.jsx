@@ -20,7 +20,7 @@ const photos = [
     { src: "src/assets/1720616140808.jpg", alt: "Memory 17" },
 ];
   
-export default function PhotoGallery() {
+function PhotoGallery() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextPhoto = () => {
@@ -57,3 +57,4 @@ export default function PhotoGallery() {
     </div>
   );
 }
+export default PhotoGallery;
